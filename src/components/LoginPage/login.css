@@ -1,0 +1,68 @@
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBookParent{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 191, 191);
+}
+.imageBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.966);
+    padding-right: 150px;
+    border-radius: 10px;
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    z-index: 1;
+    margin-right: 250px;
+    gap: 1rem;
+}
+.text{
+    font-family: Franklin Gothic Medium;
+    
+}
+.imageLogin{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.loginBox{
+    background-color: white;
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 200px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.firstline{
+    display: flex;
+    justify-content: space-around;
+}
+.lastline{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.MuiTextField-root{
+    width:100%;
+}

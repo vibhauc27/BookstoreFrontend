@@ -1,0 +1,85 @@
+.successParent {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order {
+    width: 286px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+}
+
+.successImage {
+    width: 200px;
+    height: 140px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.orderText1 {
+    font-size: 23px;
+    font-weight: bold;
+    width: 286px;
+    height: 30px;
+    /* border: 1px solid blue; */
+}
+
+.orderMessage {
+    width: 354px;
+    height: 66px;
+    font-size: 18px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.successOrderTable {
+    width: 751px;
+    height: 112px;
+    border: 1px solid #DCDCDC;
+    margin-top: 40px;
+}
+
+.successTableHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 751px;
+    height: 42px;
+    border: 1px solid #DCDCDC;
+
+}
+.successTableBody{
+    display: flex;
+    height: 70px;
+    
+}
+.successEmail{
+    font-size: 12px;
+    width: 225px;
+    border-right: 1px solid #DCDCDC;
+    padding: 10px;
+}
+.successContact{
+    font-size: 12px;
+    width: 230px;
+    border-right: 1px solid #DCDCDC;
+    padding: 10px;
+}
+.successAddress{
+    font-size: 12px;
+    text-align: left;
+    width: 250px;
+    padding: 10px;
+}

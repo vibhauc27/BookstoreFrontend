@@ -1,0 +1,163 @@
+.myCartParent {
+    width: 80vw;
+    height: 150vh;
+    margin-left: 200px;
+    margin-top: 112px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+
+.myCartBox {
+    width: 774px;
+    height: 350px;
+    border: 1px solid #DCDCDC;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.mycartColumn1 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.myCartText {
+    font-size: 18px;
+    color: #0A0102;
+    font-weight: bold;
+}
+
+.loacationMyCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 275px;
+    height: 40px;
+    border: 1px solid #DCDCDC;
+    font-size: 14px;
+
+}
+
+.locationIcon {
+    color: #A03037;
+    opacity: 100%;
+}
+
+.arrowIcon {
+    color: #DCDCDC;
+}
+
+.mycartcolumn2 {
+    display: flex;
+    width: 236px;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.myCartRow2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 110px;
+}
+
+.myCartRow2text1 {
+    font-size: 14px;
+}
+
+.myCartRow2text2 {
+    font-size: 10px;
+    color: #9D9D9D;
+}
+
+.myCartRow2text3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+}
+
+.myCartDiscountPrice {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.myCartPrice {
+    font-size: 9px;
+    color: #9D9D9D;
+    text-decoration: line-through;
+}
+
+.mycartBookimage {
+    width: 65px;
+    height: 85px;
+}
+
+.plusorMinus {
+    display: flex;
+    cursor: pointer;
+}
+
+.plusorMinusbox {
+    width: 41px;
+    height: 24px;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+}
+.mycartColumn3{
+    /* border: 1px solid red; */
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 20px; */
+}
+.mycartButton{
+   
+    width: 151px;
+    height: 35px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #3371B5;
+    border-radius: 2px;
+    border-color: #3371B5;
+    cursor: pointer;
+}
+.plusorMinusColumn{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+    cursor: pointer;
+}
+.removebutton{
+    font-size: 12px;
+    text-align: center;
+}
+
+.addressDetailBox {
+    width: 774px;
+    height: 60px;
+    border: 1px solid #DCDCDC;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.orderSummaryBox {
+    width: 774px;
+    height: 60px;
+    border: 1px solid #DCDCDC;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    background-color: #2E1D1E;
+    color: #FFFFFF;
+    /* margin-top: 1200px; */
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px; 
+
+}
+
+.footerText {
+    display: flex;
+    width: 47vw;
+    justify-content: space-around;
+}

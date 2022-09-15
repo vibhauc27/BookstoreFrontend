@@ -1,0 +1,116 @@
+.customerDetailParent {
+    width: 80vw;
+    height: 87vh;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.customerDetailBox {
+    width: 774px;
+    height: 591px;
+    border: 1px solid #DCDCDC;
+    padding: 30px;   
+}
+
+.customerDetailBoxRow1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.customerDetailText1 {
+    font-size: 17px;
+    width: 139px;
+    height: 24px;
+}
+
+.customerDetailText2 {
+    width: 150px;
+    height: 35px;
+    border: 1px solid #A03037;
+    color: #A03037;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.customerDetailBoxRow2 {
+    height: 80%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.customerDetails {
+    width: 520px;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+
+.customerDetailFullname {
+    width: 251px;
+    height: 45px;
+}
+
+.customerDetailMobileNumber {
+    width: 251px;
+    height: 45px;
+}
+
+.customerDetailAddress {
+    width: 520px;
+    height: 120px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.customerDetailCity {
+    width: 251px;
+    height: 45px;
+}
+
+.customerDetailState {
+    width: 251px;
+    height: 45px;
+}
+
+.customerDetailstype {
+    width: 345px;
+    height: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.customerOption {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.customerDetailContinueButton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+
+.continueButton {
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    border-color: #3371B5;
+    background-color: #3371B5;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
